@@ -83,6 +83,27 @@ Alle Berechtigungen können Sie in den Android-Einstellungen jederzeit entziehen
 
 Wenn Sie die App über Google Play beziehen, verarbeitet Google dabei Daten (z. B. Ihr Google-Konto und die Installation) nach eigener Verantwortung und der Datenschutzerklärung von Google: <https://policies.google.com/privacy>. Wir erhalten von Google nur zusammengefasste Statistiken und gegebenenfalls Absturzberichte, die keine Rückschlüsse auf Ihre Zählungen zulassen.
 
+## 9a. Web-App (Nutzung im Browser)
+
+Die App gibt es zusätzlich als Web-App, die im Browser läuft (auch „zum Startbildschirm hinzugefügt“). Für sie gilt
+dasselbe wie oben, mit diesen Unterschieden:
+
+- **Bereitstellung der Seite:** Die Web-App wird über den Dienst Vercel (Vercel Inc., USA) ausgeliefert. Beim Aufruf
+  verarbeitet Vercel technisch notwendige Daten: IP-Adresse, Datum und Uhrzeit, aufgerufene Datei, Browserkennung.
+  Diese Daten dienen der Auslieferung und Sicherheit der Seite und werden von Vercel nach eigenen Fristen gelöscht.
+  Dabei können Daten in die USA übermittelt werden. Datenschutzerklärung: <https://vercel.com/legal/privacy-policy>.
+  Rechtsgrundlage: berechtigtes Interesse an einer funktionierenden und sicheren Bereitstellung (Art. 6 Abs. 1 lit. f DSGVO).
+- **Speicherung:** Kreuzungen, Zählungen, Einstellungen und Nachweisfotos werden im Speicher des Browsers auf Ihrem
+  Gerät abgelegt (nicht bei uns und nicht bei Vercel). Sie bleiben, bis Sie sie in der App löschen oder die Website-Daten
+  im Browser löschen. Mit „Daten sichern“ können Sie eine Sicherungsdatei erstellen; wohin Sie diese ablegen, entscheiden Sie.
+- **Kamera:** Die Kamera wird nur während einer KI-Zählung eingeschaltet, nachdem Sie dies im Browser erlaubt haben.
+  Die Bilder werden im Browser auf Ihrem Gerät ausgewertet; Video wird nicht gespeichert und nichts übertragen.
+  Nachweisfotos werden wie in Abschnitt 4 verpixelt und nur im Browser gespeichert.
+- **Standort und Karte:** wie in Abschnitt 5 und 6; die Web-App lädt Straßendaten von der Overpass-API und zeichnet die
+  Karte daraus selbst, ohne Kartenbilder. Google-Dienste werden nicht verwendet.
+- **Keine Cookies, keine Analyse, keine Schriftarten oder Skripte von Dritten.** Die für den Offline-Betrieb nötigen
+  Dateien speichert der Browser zwischen (Service Worker); das ist technisch erforderlich (§ 165 Abs. 3 TKG 2021).
+
 ## 10. Ihre Rechte
 
 Sie haben nach der DSGVO das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch (Art. 15–21 DSGVO). Da die App Ihre Daten nur auf Ihrem Gerät speichert, können Sie diese jederzeit selbst einsehen, ändern, exportieren und löschen. Bei Fragen wenden Sie sich an die in Abschnitt 1 genannte Adresse.

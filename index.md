@@ -16,10 +16,10 @@ Stand: 16. November 2026 · gilt für die Android-App „Verkehrszähler“ (Pak
 
 ## 1. Verantwortlicher
 
-[Boris Schinko]
-[Ing. Josef Gattermaiergasse 1/1]
-[2345 Brunn am Gebirge, Österreich]
-E-Mail: [boris.schinko@gmail.com]
+Boris Schinko
+Ing. Josef Gattermaiergasse 1/1
+2345 Brunn am Gebirge, Österreich
+E-Mail: boris.schinko@gmail.com
 
 Für Fragen zum Datenschutz erreichen Sie uns unter der oben genannten E-Mail-Adresse.
 
